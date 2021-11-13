@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+/* header css */
+
+.header{
+  background-color: #97D700;
+}
+
+.top-nav{
+  margin: 0px 15%;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-nav-middle{
+  gap: 2px;
+  margin: 0 10%;
+
+}
+
+.top-nav-list{
+  list-style: none;
+
+}
+
+.bottom-nav{
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10%;
+  background-color: #219e2f;
+
+
+}
+
+.header-padding{
+  padding: 15px 15px;
+}
+
+.type{
+  background-color: #219e2f;
+}
+
+.bottom-nav-font, .type-font{
+  color: white;
+  list-style: none;
+}
+
+.fa-chevron-down{
+  color: white;
+  margin-left: 10px;
+}
