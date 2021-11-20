@@ -7,51 +7,45 @@ function Header(){
                 <div className="header-padding type flex-row">
                     <div>
                     <ul className = "type-font">
-                    <li><a>Personal</a></li>
+                    <li><a>Personal <i class="fas fa-chevron-down fa-header-top"></i></a></li>
                     {/* <li><a>Business</a></li> */}
                     </ul>
                     </div>
-                    <div className = "arrow-down">
-                    <i class="fas fa-chevron-down"></i>
-                    </div>
+                    
                 </div>
                 <div className = "top-nav-middle ">
                    <ul className = "top-nav-list flex-row">
-                       <li><a className = "header-padding">Portofolio</a></li>
-                       <li><a className = "header-padding">Career</a></li>
-                       <li><a className = "header-padding">Complaints</a></li>
-                       <li><a className = "header-padding">Help</a></li>
+                       <li><a className = "header-padding list-hover-top">Portofolio</a></li>
+                       <li><a className = "header-padding list-hover-top">Career</a></li>
+                       <li><a className = "header-padding list-hover-top">Complaints</a></li>
+                       <li><a className = "header-padding list-hover-top">Help</a></li>
                    </ul>                
                 </div>
-                <div className = "header-padding">
-                    <h4><i class="fas fa-globe"></i> English</h4>
+                <div className = "header-padding list-hover-top">
+                    <h4><i class="fas fa-globe"></i> English <i class="fas fa-chevron-down fas-english"></i></h4>
                 </div>
-                <div className = "header-padding">
+                <div className = "header-padding list-hover-top">
                     <h4><i class="fas fa-user"></i> user</h4>
                 </div>
             </div>
+            
             <div className = "bottom-nav flex-row">
                 <div>
                 <img src = "./images/telesom_logo.png"/>
                 </div>
-                <div>
-                    <ul className="top-nav-list flex-row bottom-nav-font">
-                        <li><a className = "header-padding">Home</a></li>
-                        <li><a className = "header-padding">Buy Now</a></li>
-                        <li><a className = "header-padding">Services</a>
-                            <ul>
-                                {/* <li>ADSl</li>
-                                <li>ADSl</li>
-                                <li>ADSl</li> */}
-                            </ul>
+                <div className = "bottom-nav-middle navbar">
+                    <ul className="top-nav-list flex-row  bottom-nav-font ">
+                        <li><a className = " list-hover-bottom">Home</a></li>
+                        <li><a className = " list-hover-bottom">Buy Now <i class="fas fa-chevron-down fa-header-top"></i></a></li>
+                        <li><a className = " list-hover-bottom">Services <i class="fas fa-chevron-down fa-header-top"></i></a>
                         </li>
-                        <li><a className = "header-padding">Contact</a></li>
-                        <li><a className = "header-padding">Home</a></li>
+                        <li><a className = " list-hover-bottom">Company <i class="fas fa-chevron-down fa-header-top"></i></a></li>
+                        <li><a className = " list-hover-bottom">Contact</a></li>
                     </ul>
                     
                  </div>
                  <div>
-                     <input type = "search" placeholder = "Search" />
+                     <input type = "search" placeholder = "Search..." className = "header-search" />
                  </div>
             </div>
         </header>

@@ -9,6 +9,8 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+
+
 .flex-row{
   display: flex;
   flex-direction: row;
@@ -23,16 +25,18 @@
 
 .header{
   background-color: #97D700;
+  /* position: sticky; */
 }
 
 .top-nav{
   margin: 0px 15%;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
+  cursor: pointer;
 }
 
 .top-nav-middle{
-  gap: 2px;
+  /* gap: 2px; */
   margin: 0 10%;
 
 }
@@ -42,17 +46,29 @@
 
 }
 
-.bottom-nav{
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 10%;
+.list-hover-top:hover{
   background-color: #219e2f;
+  color: white;
+}
 
+.list-hover-bottom{
+  padding: 15px;
+  font-weight: bold;
+}
+
+
+.bottom-nav{
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: #219e2f;
+  cursor: pointer;
 
 }
 
 .header-padding{
   padding: 15px 15px;
+  font-weight: bold;
 }
 
 .type{
@@ -64,7 +80,260 @@
   list-style: none;
 }
 
-.fa-chevron-down{
+.fa-header-top{
   color: white;
-  margin-left: 10px;
+  margin-left: 3px;
 }
+
+.header-search{
+  width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+/* .navbar ul li{
+  position: relative;
+  padding: 10px 0px;
+}
+
+.navbar ul li::after{
+  content: "";
+  height: 3px;
+  width: 0;
+  background: red;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+  width: 100%;
+} */
+
+
+
+
+
+
+
+/* slider component css */
+
+.slider-bg{
+  display: block;
+  background-color: #CBD2E9;
+}
+
+.slider-container{
+  text-align: center;
+}
+.hadal-image{
+  width: 100%;
+  height: 80vh;
+  /* animation-name: leftToRight; ` ` */
+} 
+
+
+.fa-chevron-left, .fa-chevron-right{
+  position: absolute;
+  top: 50%;
+  /* left: 1%; */
+  transform: translate(0, -50%);
+  font-size: 40px;
+  padding: 10px;
+  cursor: pointer;
+  color: #030305;
+  transition: 0.1s;
+  user-select: none;
+  
+}
+
+.fa-chevron-left:hover, .fa-chevron-right:hover{
+  color: white;
+  
+}
+
+.fa-chevron-right{
+  right: 0;
+}
+
+.dots-box{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 50px;
+  cursor: pointer;
+
+}
+
+.fa-circle{
+  padding: 3px;
+  font-weight: bold;
+}
+
+.fa-circle:hover{
+  color: white;
+}
+
+.fa-active{
+  color: white;
+}
+
+
+
+.slide{
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(0.9);
+}
+
+
+/* .slide{
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.active{
+scroll-snap-align: start;
+} */
+
+
+
+
+/* CRS component css */
+
+
+.crs{
+  max-width: 80%;
+  height: 40%;
+  margin: auto;
+  margin-top: 3%;
+  
+}
+
+.crs-container{
+  display:  grid;
+  grid-template-columns: 60% 40%;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.crs-text{
+  max-width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  /* word-wrap: break-word; */
+  text-align: center;
+  line-height: 28px;
+  height: 50vh;
+
+}
+
+.crs-heading{
+  text-align: center;
+  margin: 10px 0px;
+}
+
+
+.crs-image{
+  width: 100%;
+  height: 50vh;
+  padding: 10px;
+}
+
+
+.fa-arrow-circle-right, .fa-arrow-circle-left{
+  position: absolute;
+  
+}
+
+.fa-arrow-circle-right{
+  bottom: -45%;
+  right: 7%;
+  font-size: 25px;
+}
+
+.fa-arrow-circle-left{
+  bottom: -45%;
+  left: 7%;
+  font-size: 25px;
+}
+
+
+/* service components  */
+
+
+.service-div{
+ background-color: violet;
+ padding: 60px;
+  /* width: 95%;
+  margin: auto; */
+  
+}
+
+.service-heading{
+  text-align: center;
+}
+.service-container{
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 0.5rem;
+  justify-items: center;
+}
+
+.service-list{
+  width: 100%;
+  height: 70vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ background-color: white;
+ border-radius: 5px;
+}
+
+.service-list:hover{
+ box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.67);
+
+}
+
+.service-paragraph{
+  max-width: 100%;
+  padding: 10px;
+  /* word-wrap: break-word; */
+}
+
+.service-image{
+  /* height: 30vh; */
+  padding: 20px;
+  margin: 25px 0px;
+}
+
+.service-btn{
+  padding: 10px;
+  margin-top: 25px;
+  font-size: 15px;
+  background-color: #219e2f;
+  color: white;
+  width: 7rem;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.service-btn:hover{
+  background-color: blue;
+  border-collapse: collapse;
+}
+
