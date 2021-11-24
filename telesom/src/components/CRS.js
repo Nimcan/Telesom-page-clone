@@ -18,8 +18,8 @@ function CRS(){
                 </div>
                 
             </div>
-                <i class="fas fa-arrow-circle-right"></i>
-                <i class="fas fa-arrow-circle-left"></i>
+                {/* <i class="fas fa-arrow-circle-right"></i>
+                <i class="fas fa-arrow-circle-left"></i> */}
         </div>
 
     )
