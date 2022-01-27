@@ -1,3 +1,4 @@
+import './Slider.css'
 import {useState} from 'react'
 import { SliderData } from './sliderData'
 

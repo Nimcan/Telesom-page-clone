@@ -1,0 +1,78 @@
+
+/* slider component css */
+
+.slider-bg{
+    display: block;
+    background-color: #CBD2E9;
+  }
+  
+  .slider-container{
+    text-align: center;
+  }
+  .hadal-image{
+    width: 100%;
+    height: 80vh;
+    /* animation-name: leftToRight; ` ` */
+  } 
+  
+  
+  .fa-chevron-left, .fa-chevron-right{
+    position: absolute;
+    top: 50%;
+    /* left: 1%; */
+    transform: translate(0, -50%);
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+    color: #030305;
+    transition: 0.1s;
+    user-select: none;
+    
+  }
+  
+  .fa-chevron-left:hover, .fa-chevron-right:hover{
+    color: white;
+    
+  }
+  
+  .fa-chevron-right{
+    right: 0;
+  }
+  
+  .dots-box{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 50px;
+    cursor: pointer;
+  
+  }
+  
+  .fa-circle{
+    padding: 3px;
+    font-weight: bold;
+  }
+  
+  .fa-circle:hover{
+    color: white;
+  }
+  
+  .fa-active{
+    color: white;
+  }
+  
+  
+  
+  .slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(0.9);
+  }
+  
+  
+  

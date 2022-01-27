@@ -1,4 +1,4 @@
-
+import './Header.css'
 
 function Header(){
     return(
@@ -40,7 +40,7 @@ function Header(){
                         <li><a className = " list-hover-bottom">Services <i class="fas fa-chevron-down fa-header-top"></i></a>
                         </li>
                         <li><a className = " list-hover-bottom">Company <i class="fas fa-chevron-down fa-header-top"></i></a></li>
-                        <li><a className = " list-hover-bottom">Contact</a></li>
+                        <li><a className = " list-hover-bottom">Contact Us</a></li>
                     </ul>
                     
                  </div>

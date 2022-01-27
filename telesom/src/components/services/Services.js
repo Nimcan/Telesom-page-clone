@@ -1,4 +1,4 @@
-
+import './services.css'
 
 function Services(){
     return(
@@ -8,15 +8,15 @@ function Services(){
               <div className="service-list">
                   <h2 className="crs-heading">VAS Services</h2>
                   <div className="service-paragraph">
-                      <p></p>
                       <p>Our VAS Service will make your life a whole lot easier </p>
-                      <p></p>
                   </div>
                   <div>
                       <img src="./images/vas-service.png" className="service-image"/>
                   </div>
                   <div>
-                      <button className="service-btn">See More</button>
+                     <a href="#" >See More</a>
+
+                      {/* <button className="service-btn">See More</button> */}
                   </div>
               </div>
               <div className="service-list">
@@ -28,7 +28,9 @@ function Services(){
                     <img src="./images/internet.png" className="service-image"/>
                   </div>
                   <div>
-                      <button className="service-btn">See More</button>
+                     <a href="#" >See More</a>
+
+                      {/* <button className="service-btn">See More</button> */}
                   </div>
               </div>
               <div className="service-list">
@@ -40,7 +42,8 @@ function Services(){
                      <img src="./images/roaming_service.png" className="service-image" /> 
                   </div>
                   <div>
-                      <button className="service-btn">See More</button>
+                      <a href="#" >See More</a>
+                      {/* <button className="service-btn">See More</button> */}
                   </div>
               </div>
               <div className="service-list">
@@ -52,7 +55,9 @@ function Services(){
                      <img src="./images/Landline.png" className="service-image" />
                   </div>
                   <div>
-                      <button className="service-btn">See More</button>
+                    <a href="#" >See More</a>
+
+                      {/* <button className="service-btn">See More</button> */}
                   </div>
               </div>
               <div className="service-list">
@@ -64,7 +69,9 @@ function Services(){
                       <img src="./images/voice_service.png" className="service-image"/>
                   </div>
                   <div>
-                      <button className="service-btn">See More</button>
+                      <a href="#" >See More</a>
+
+                      {/* <button className="service-btn">See More</button> */}
                   </div>
               </div>
               <div className="service-list">
@@ -78,7 +85,9 @@ function Services(){
                       <img src="./images/Mobile_money.png" className="service-image"/>    
                   </div>
                   <div>
-                      <button className="service-btn">See More</button>
+                     <a href="#" >See More</a>
+
+                      {/* <button className="service-btn">See More</button> */}
                   </div>
               </div>
           </div>
