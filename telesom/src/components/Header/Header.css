@@ -85,7 +85,7 @@
   
   .navbar ul li::after{
     content: "";
-    height: 2px;
+    height: 2.5px;
     width: 0;
     background: yellow;
     position: absolute;
@@ -95,11 +95,11 @@
   }
   
   
-/*   
+  
   .navbar ul li:hover:after{
     width: 100%;
   }
-   */
+  
 
   .top-nav-list li{
       border:none;

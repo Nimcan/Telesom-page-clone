@@ -1,0 +1,47 @@
+
+
+.top-footer{
+    background: black;
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding: 10px 40px;
+
+}
+
+.top-footer .logo-app .social-icons{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.top-footer .logo-app .social-icons i{
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.top-footer .footer-services{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.top-footer .footer-services p{
+    color: white;
+}
+
+.top-footer .footer-services a{
+    text-decoration: none;
+    color: white;
+
+}
+.bottom-footer{
+    background: chartreuse;
+    text-align: center;
+    padding: 10px 40px;
+
+}
+
+hr{
+    padding: 0px 40px;
+}
