@@ -27,7 +27,7 @@ function Footer(){
                         <a href="#">Internet Packages</a>
 
                 </div>
-                <div className="footer-services">
+                <div className="footer-services portofolio">
                     <p>Portofolio</p>
                         <a href="#">Kaabsan</a>
                         <a href="#">Modren Automative Technology</a>
@@ -36,7 +36,7 @@ function Footer(){
                         <a href="#">TEC</a>
                         <a href="#">Taaj</a>
                 </div>
-                <div className="footer-services">
+                <div className="footer-services company">
                      <p>Company</p>
                         <a href="#">About us</a>
                         <a href="#">Mission, Vision and Core Values</a>
@@ -46,10 +46,15 @@ function Footer(){
                         <a href="#">Complaints and Help</a>
                 </div>
 
-                <div className="waafi-app footer-services">
-                     <p>Apps</p>
-                        <a href="#">Waafi App</a>
-                        <a href="#">Self-care App</a>
+                <div className="apps footer-services">
+                     {/* <p>Apps</p> */}
+                        <a href="#">Download Our Waafi App</a> 
+                        <div className="waafi-app">
+                             <img src="./images/play-store.png" />
+                             <img src="./images/app-store.png" />                         
+                        </div>
+                        
+
                                 
                 </div>  
           

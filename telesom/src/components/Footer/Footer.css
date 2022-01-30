@@ -1,7 +1,7 @@
 
 
 .top-footer{
-    background: black;
+    background: #219e2f;
     display: flex;
     
     flex-wrap: wrap;
@@ -11,37 +11,74 @@
 
 .top-footer .logo-app .social-icons{
     margin-top: 20px;
-    color: white;
+    /* color: white; */
     text-align: center;
 }
 
 .top-footer .logo-app .social-icons i{
     font-size: 25px;
     padding-right: 10px;
+    cursor: pointer;
+}
+
+.top-footer .logo-app .social-icons i:hover{
+    color: yellow;
 }
 
 .top-footer .footer-services{
     display: flex;
     flex-direction: column;
-    margin-right: 10px;
+    padding: 10px 20px;
 }
 
 .top-footer .footer-services p{
     color: white;
 }
 
-.top-footer .footer-services a{
+.services a, .portofolio a, .company a {
     text-decoration: none;
     color: white;
+    font-size: 13px;
+    padding-left: 5px;
+    /* font-weight: bold; */
+    /* font-weight: 500; */
 
 }
+
+.services p, .portofolio p, .company p{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.logo-app {
+    padding: 20px 10px;
+}
+
+.apps{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.apps a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+.apps .waafi-app img{
+    width: 130px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
 .bottom-footer{
     background: chartreuse;
+    /* background-color: #211e9b;
+    color: white; */
     text-align: center;
     padding: 10px 40px;
 
 }
 
-hr{
-    padding: 0px 40px;
-}
